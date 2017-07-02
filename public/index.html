@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+
+<body>
+    <div>
+        <h1 id="titleHead">MrUnk's File Metadata Appraiser</h1>
+        <form id="#formItself" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="text" id="browserBox">
+        <input type="file" id="toEnter" name="fileName">
+        <button type="button" id="browseBtn">Browse...</button>
+        <input type="submit" value="Submit!">
+
+        </form>
+    </div>
+    <script src="javascript/jquery-3.2.1.js"></script>
+    <script src="javascript/amendingBtns.js"></script>
+</body>
+
+<!-- note: Important to remember that the attribute of 'name="..."' in input
+is the thing that ties it to server side. In this case its 'fileName' and multer
+recognizes that as well to communicate -->

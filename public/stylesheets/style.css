@@ -1,0 +1,6 @@
+input[type="file"] {
+    display:none;
+}
+#titleHead{
+    font:"Lucida Grande", Helvetica, Arial, sans-serif;
+}
